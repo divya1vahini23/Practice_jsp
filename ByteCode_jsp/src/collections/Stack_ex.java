@@ -14,8 +14,9 @@ public class Stack_ex {
         System.out.println("pop "+s.pop());
         System.out.println("peek "+s.peek());
         System.out.println("search "+s.search(20));
-        
-        
+        while(!s.isEmpty()){
+        	System.out.println(s.pop());
+        }
 	}
 
 }
